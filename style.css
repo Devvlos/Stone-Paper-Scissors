@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    background-color: rgb(243, 177, 177);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.game{
+    gap: 90px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .btn{
+    cursor: pointer;
+    margin-top: 200px;
+    background: none;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    scale: 1.1;
+    filter: drop-shadow(25px 15px #000000);
+}
+h1{
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: -750px;
+    word-spacing: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.output
+{
+    display: none;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+#imgLeft
+{
+    transform: scaleX(-1);
+    rotate: 90deg;
+    position: relative;
+    width: 400px;
+    animation-name: leftt;
+    animation-duration: 4s;
+
+}
+@keyframes leftt {
+    0%   { left:0px;}
+    20%   { left: -75px;}
+}
+#imgright
+{
+    rotate: -90deg;
+    position: relative;
+    width: 400px;
+    animation-name: rightt;
+    animation-duration: 4s;
+}
+@keyframes rightt {
+    0%   { right:0px;}
+    20%   { right: -75px;}
+}
+.reset
+{
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 8px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -500px;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+.reset:hover{
+    box-shadow: 15px 15px rgb(255, 255, 255);
+    scale: 1.1;
+}
+#myScore{
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    margin-left: -1600px;
+    margin-top: -500px;
+    word-spacing: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#compScore
+{
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    margin-left: 1600px;
+    margin-top: -500px;
+    word-spacing: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
