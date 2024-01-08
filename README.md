@@ -21,7 +21,7 @@
   <br>
   <img alt="screenshot" src="Img/demo1.png">
   <br>
-  <img alt="screenshot" src="Img/demo.png">
+  <img alt="screenshot" src="Img/demo3.png">
 </p>
 
 ---
