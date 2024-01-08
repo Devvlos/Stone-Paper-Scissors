@@ -17,11 +17,11 @@
 ---
 
 <p align="center">
-  <img alt="screenshot" src="demo2.png">
+  <img alt="screenshot" src="Img/demo2.png">
   <br>
-  <img alt="screenshot" src="demo1.png">
+  <img alt="screenshot" src="Img/demo1.png">
   <br>
-  <img alt="screenshot" src="demo.png">
+  <img alt="screenshot" src="Img/demo.png">
 </p>
 
 ---
