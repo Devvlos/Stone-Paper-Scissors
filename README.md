@@ -1,5 +1,5 @@
 <h1 align="center">Stone-Paper-Scissors</h1>
-<h3 align="center">One guy told me poor person cant but Stone-Paper-Scissors Book Which Is True But I Can Code So I Made Using HTML CSS & JS</h3>
+<h3 align="center">The familiar game of Rock, Paper, Scissors is played like this: at the same time, two players display one of three symbols: a rock, paper, or scissors. A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it.</h3>
 
 
 [![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/Devvlos/Stone-Paper-Scissors)
